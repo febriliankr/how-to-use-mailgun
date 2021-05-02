@@ -7,7 +7,7 @@ mailgunConfig.ts
 import mailgun from "mailgun-js";
 const mg = mailgun({
   apiKey: process.env.mailgunApiKey,
-  domain: "mail.pld-ui.com",
+  domain: "mail.febrilian.com",
 });
 
 export default mg;
